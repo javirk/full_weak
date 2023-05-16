@@ -1,14 +1,14 @@
-# Nerfies
+# Full or Weak annotations?
 
-This is the repository that contains source code for the [Nerfies website](https://nerfies.github.io).
+This is the repository that contains source code for the [Full or Weak annotations website](https://www.javiergamazo.com/fullweak).
 
-If you find Nerfies useful for your work please cite:
+If you find _Full or Weak annotations?_ useful for your work please cite:
 ```
-@article{park2021nerfies
-  author    = {Park, Keunhong and Sinha, Utkarsh and Barron, Jonathan T. and Bouaziz, Sofien and Goldman, Dan B and Seitz, Steven M. and Martin-Brualla, Ricardo},
-  title     = {Nerfies: Deformable Neural Radiance Fields},
-  journal   = {ICCV},
-  year      = {2021},
+@article{tejero2023full,
+  title={Full or Weak annotations? An adaptive strategy for budget-constrained annotation campaigns},
+  author={Tejero, Javier Gamazo and Zinkernagel, Martin S and Wolf, Sebastian and Sznitman, Raphael and Neila, Pablo M{\'a}rquez},
+  journal={arXiv preprint arXiv:2303.11678},
+  year={2023}
 }
 ```
 
