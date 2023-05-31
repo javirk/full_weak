@@ -219,8 +219,8 @@
     <!-- Results. -->
     <div class="columns is-centered">
       <div class="column is-full-width">
-        <h2 class="title is-3">Results</h2>
-        <h3 class="title is-3">Main results</h3>
+        <h2 class="title is-2">Results</h2>
+        <h4 class="title is-4">Main results</h4>
         <div class="content has-text-justified">
           <p>
             We compared our method in four datasets against different fixed strategies and an estimated best fixed strategy with $\alpha_s = 12$. We can make the following observations:
@@ -233,14 +233,25 @@
           <img src = "./static/images/main_result.svg" alt="Main results"/>
         </div>
 
-        <h3 class="title is-3">Sensitivity to $\alpha_s$</h3>
+        <h4 class="title is-4">Surfaces</h4>
+        <div class="content has-text-justified">
+          <p>
+            We assume that segmentation performance grows logarithmically with data, and we impose that in the mean prior of the Gaussian Process:
+            \[ \mu(C, S) = \gamma_c\log(\beta_cC+1) + \gamma_s\log(\beta_sS+1) \]
+          </p>
+          <img src = "./static/images/surfaces.svg" alt="Alpha results"/>
+          <p>
+            We see that this assumption holds in general for the four datasets but SUIM, hence the drop in performance for high budgets on this dataset.
+          </p>
+        </div>
+
+        <h4 class="title is-4">Sensitivity to $\alpha_s$</h4>
         <div class="content has-text-justified">
           <p>
             Some datasets require different expertise and domain knowledge to annotate, and that is translated in different $\alpha_s$ in our model. We see that our method is robust regardless of the value of $\alpha_s$.
           </p>
           <img src = "./static/images/alphas_result.svg" alt="Alpha results"/>
         </div>
-
       </div>
     </div>
     <!--/ Results. -->
