@@ -1,6 +1,6 @@
 # Full or Weak annotations?
 
-This is the repository that contains source code for the [Full or Weak annotations website](https://www.javiergamazo.com/fullweak).
+This is the repository that contains source code for the [Full or Weak annotations website](https://www.javiergamazo.com/full_weak).
 
 If you find _Full or Weak annotations?_ useful for your work please cite:
 ```
